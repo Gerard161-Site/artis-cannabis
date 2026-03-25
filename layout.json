@@ -3,15 +3,16 @@
   "navigation": "NavMinimal",
   "sections": [
     {
-      "type": "HeroShaderGlass",
+      "type": "HeroFullScreen",
       "id": "hero",
       "config": {
-        "title": "ARTIS CANNABIS",
+        "textAlign": "left",
+        "heroType": "image",
         "ctaText": "Explore Products",
         "secondaryCtaText": "Our Brands",
         "secondaryCtaHref": "/products",
-        "shaderSpeed": 0.3,
-        "glowColor": "accent",
+        "heroHeight": "85vh",
+        "overlayStyle": "none",
         "animation": "fade-up"
       }
     },
@@ -21,7 +22,8 @@
       "config": {
         "heading": "WHO WE ARE",
         "content": "We are the industry leader of superior quality cannabis products. Our innovation, consistency and commitment to the highest standards have allowed us to continually succeed in a rapidly evolving marketplace. Our forward-thinking consumer-focused brands are setting the stage for future industry trends.",
-        "imageUrl": "assets/about-leaf.png",
+        "imageUrl": "assets/leaf-illustration.png",
+        "contentPosition": "left",
         "stats": [
           { "value": "2", "label": "HC Approved Facilities" },
           { "value": "100+", "label": "Product Lines" },
@@ -35,25 +37,31 @@
       "id": "brands",
       "config": {
         "heading": "WE WORK WITH",
-        "subtitle": "Our portfolio of premium cannabis brands",
+        "subtitle": "",
         "cards": [
           {
             "title": "GREEN TEC",
-            "description": "Advanced cannabis cultivation technology",
+            "description": "",
             "imageUrl": "assets/brand-greentec.png",
-            "span": "wide"
+            "span": "normal"
           },
           {
             "title": "TREE HUGGER",
-            "description": "Sustainably grown, naturally crafted",
+            "description": "",
             "imageUrl": "assets/brand-treehugger.png",
-            "span": "tall"
+            "span": "normal"
           },
           {
             "title": "TENZO",
-            "description": "Premium craft cannabis for connoisseurs",
+            "description": "",
             "imageUrl": "assets/brand-tenzo.png",
-            "span": "wide"
+            "span": "normal"
+          },
+          {
+            "title": "",
+            "description": "",
+            "imageUrl": "assets/brand-fourth.png",
+            "span": "normal"
           }
         ],
         "animation": "fade-up"
@@ -64,10 +72,10 @@
       "id": "what-we-do",
       "config": {
         "heading": "WHAT WE DO",
-        "content": "We are a vertically integrated Licensed Producer with two Health Canada approved facilities. Working under these licenses we formulate, extract, package, and deliver one of Canada's most diverse and pure medical/recreational cannabis product assortments.\n\nOur medical products are based on patented pharmaceutical drug delivery technology backed by independent third party data as well as product specific clinical and non-clinical studies to prove their utility for medical use.",
+        "content": "We are a vertically integrated Licensed Producer with two Health Canada approved facilities. Working under these licenses we formulate, extract, package, and deliver one of Canada's most diverse and pure medical/recreational cannabis product assortments.\n\nOur medical products are based on patented pharmaceutical drug delivery technology backed by independent third party data as well as product specific clinical and non-clinical studies to prove their utility for medical use having recently secured a partnership with Merida Capital, a prominent US private equity fund.",
         "imageUrl": "assets/leaf-illustration.png",
-        "overlayStyle": "glass",
-        "ctaText": "Read More",
+        "overlayStyle": "none",
+        "ctaText": "READ MORE",
         "ctaHref": "/about",
         "animation": "fade-up"
       }
@@ -77,35 +85,24 @@
       "id": "partners",
       "config": {
         "heading": "OUR PARTNERS",
-        "subtitle": "The people driving our vision forward",
+        "subtitle": "",
         "members": [
           {
-            "name": "Erik Fernandez",
-            "role": "Strategic Partner",
+            "name": "ERIK FERNANDEZ",
+            "role": "",
             "avatar": "assets/partner-erik.png"
           },
           {
-            "name": "Paul Jacob",
-            "role": "Strategic Partner",
+            "name": "PAUL JACOB",
+            "role": "",
             "avatar": "assets/partner-paul.png"
           },
           {
-            "name": "Alicia D'Souza",
-            "role": "Strategic Partner",
+            "name": "ALICIA D'SOUZA",
+            "role": "",
             "avatar": "assets/partner-alicia.png"
           }
         ],
-        "animation": "fade-up"
-      }
-    },
-    {
-      "type": "Newsletter",
-      "id": "subscribe",
-      "config": {
-        "heading": "Stay in the Loop",
-        "subtitle": "Sign up with your email address to receive latest updates and notifications",
-        "placeholder": "Email address",
-        "buttonText": "SIGN UP",
         "animation": "fade-up"
       }
     }
