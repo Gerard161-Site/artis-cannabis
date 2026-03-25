@@ -53,7 +53,7 @@
 .template-artis-cannabis #hero {
   --tenant-color-heading: 0 0% 20%;
   --tenant-color-text: 0 0% 20%;
-  background-color: hsl(30 30% 95%);
+  background-color: hsl(330 60% 85%);
 }
 
 /* Dark text on light hero — override white text */
