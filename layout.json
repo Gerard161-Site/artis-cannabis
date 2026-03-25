@@ -72,15 +72,13 @@
       }
     },
     {
-      "type": "ImageShowcase",
+      "type": "About",
       "id": "what-we-do",
       "config": {
         "heading": "WHAT WE DO",
         "content": "We are a vertically integrated Licensed Producer with two Health Canada approved facilities. Working under these licenses we formulate, extract, package, and deliver one of Canada's most diverse and pure medical/recreational cannabis product assortments.\n\nOur medical products are based on patented pharmaceutical drug delivery technology backed by independent third party data as well as product specific clinical and non-clinical studies to prove their utility for medical use having recently secured a partnership with Merida Capital, a prominent US private equity fund.",
         "imageUrl": "assets/leaf-what-we-do.png",
-        "overlayStyle": "none",
-        "ctaText": "READ MORE",
-        "ctaHref": "/about",
+        "contentPosition": "right",
         "animation": "fade-up"
       }
     },

@@ -110,18 +110,15 @@
   transform: scale(1.02);
 }
 
-/* ===== What We Do — White bg, decorative images, dark text ===== */
+/* (What We Do styles moved to below brands section) */
+
+/* ===== What We Do — WHITE bg, dark text ===== */
 
 .template-artis-cannabis #what-we-do {
   --tenant-color-surface: 0 0% 100%;
   --tenant-color-background: 0 0% 100%;
   --tenant-color-heading: 0 0% 0%;
   --tenant-color-text: 0 0% 15%;
-}
-
-.template-artis-cannabis #what-we-do h2 {
-  font-size: clamp(1.5rem, 3vw, 3rem);
-  font-weight: 700;
 }
 
 /* ===== Partners — DARK section with photo background ===== */
@@ -146,6 +143,21 @@
 .template-artis-cannabis #partners p,
 .template-artis-cannabis #partners span {
   color: hsl(0 0% 100%);
+}
+
+/* Override circular avatars to rectangular portraits */
+.template-artis-cannabis #partners img {
+  border-radius: 0.5rem !important;
+  width: 200px !important;
+  height: 250px !important;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .template-artis-cannabis #partners img {
+    width: 280px !important;
+    height: 350px !important;
+  }
 }
 
 /* ===== Footer — LIGHT bg, dark text (matches Figma) ===== */
