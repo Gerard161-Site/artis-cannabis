@@ -77,13 +77,14 @@
   opacity: 0.85;
 }
 
-/* ===== Brands (We Work With) — DARK section with full-bleed photo bg ===== */
+/* ===== Brands (We Work With) — DARK section, full-bleed image strip ===== */
 
 .template-artis-cannabis #brands {
   --tenant-color-surface: 0 0% 10%;
-  --tenant-color-background: 0 0% 10%;
+  --tenant-color-background: 0 0% 5%;
   --tenant-color-heading: 0 0% 100%;
   --tenant-color-text: 0 0% 100%;
+  --tenant-color-border: 0 0% 5%;
   position: relative;
 }
 
@@ -100,14 +101,36 @@
   color: hsl(0 0% 100%);
 }
 
+/* Remove card borders and gaps — seamless image strip */
+.template-artis-cannabis #brands .grid {
+  gap: 0 !important;
+}
+
 .template-artis-cannabis #brands .rounded-2xl {
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  border: none !important;
+  border-radius: 0 !important;
   overflow: hidden;
   transition: transform 0.3s ease;
 }
 
 .template-artis-cannabis #brands .rounded-2xl:hover {
   transform: scale(1.02);
+}
+
+/* Hide icon boxes on brand cards — just images + text */
+.template-artis-cannabis #brands .w-12.h-12.rounded-xl {
+  display: none;
+}
+
+/* Make brand cards taller for full-bleed image feel */
+.template-artis-cannabis #brands .auto-rows-\[minmax\(180px\2c auto\)\] {
+  auto-rows: minmax(320px, auto);
+}
+
+@media (min-width: 768px) {
+  .template-artis-cannabis #brands .auto-rows-\[minmax\(180px\2c auto\)\] {
+    auto-rows: minmax(400px, auto);
+  }
 }
 
 /* (What We Do styles moved to below brands section) */
@@ -124,11 +147,18 @@
 /* ===== Partners — DARK section with photo background ===== */
 
 .template-artis-cannabis #partners {
-  --tenant-color-surface: 30 20% 30%;
-  --tenant-color-background: 30 20% 30%;
+  --tenant-color-surface: transparent;
+  --tenant-color-background: transparent;
   --tenant-color-heading: 0 0% 100%;
   --tenant-color-text: 0 0% 100%;
   position: relative;
+}
+
+.template-artis-cannabis #partners > section {
+  background-image: url('assets/partners-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-color: hsl(30 20% 30%);
 }
 
 .template-artis-cannabis #partners h2 {
@@ -180,6 +210,29 @@
 .template-artis-cannabis .hover-lift:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== Section Spacing — Tight like the Figma ===== */
+
+.template-artis-cannabis #hero > section,
+.template-artis-cannabis #brands > section,
+.template-artis-cannabis #partners > section {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.template-artis-cannabis #who-we-are > section,
+.template-artis-cannabis #what-we-do > section {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+@media (min-width: 768px) {
+  .template-artis-cannabis #who-we-are > section,
+  .template-artis-cannabis #what-we-do > section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
 }
 
 /* ===== Responsive ===== */

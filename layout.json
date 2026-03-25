@@ -113,6 +113,6 @@
   "settings": {
     "wrapperClass": "template-artis-cannabis",
     "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Raleway:wght@400;500;600;700&family=Lato:wght@400;700&display=swap",
-    "sectionPadding": "2rem/3rem/4rem"
+    "sectionPadding": "1rem/1.5rem/2rem"
   }
 }
