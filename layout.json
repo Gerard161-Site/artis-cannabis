@@ -40,26 +40,30 @@
         "subtitle": "",
         "cards": [
           {
+            "icon": "Leaf",
             "title": "GREEN TEC",
-            "description": "",
+            "description": "Advanced cannabis cultivation technology",
             "imageUrl": "assets/brand-greentec.png",
             "span": "normal"
           },
           {
+            "icon": "TreePine",
             "title": "TREE HUGGER",
-            "description": "",
+            "description": "Sustainably grown, naturally crafted",
             "imageUrl": "assets/brand-treehugger.png",
             "span": "normal"
           },
           {
+            "icon": "Sparkles",
             "title": "TENZO",
-            "description": "",
+            "description": "Premium craft cannabis for connoisseurs",
             "imageUrl": "assets/brand-tenzo.png",
             "span": "normal"
           },
           {
-            "title": "",
-            "description": "",
+            "icon": "Mountain",
+            "title": "ARTIS SELECT",
+            "description": "Curated artisanal selections",
             "imageUrl": "assets/brand-fourth.png",
             "span": "normal"
           }
@@ -73,7 +77,7 @@
       "config": {
         "heading": "WHAT WE DO",
         "content": "We are a vertically integrated Licensed Producer with two Health Canada approved facilities. Working under these licenses we formulate, extract, package, and deliver one of Canada's most diverse and pure medical/recreational cannabis product assortments.\n\nOur medical products are based on patented pharmaceutical drug delivery technology backed by independent third party data as well as product specific clinical and non-clinical studies to prove their utility for medical use having recently secured a partnership with Merida Capital, a prominent US private equity fund.",
-        "imageUrl": "assets/leaf-illustration.png",
+        "imageUrl": "assets/leaf-what-we-do.png",
         "overlayStyle": "none",
         "ctaText": "READ MORE",
         "ctaHref": "/about",

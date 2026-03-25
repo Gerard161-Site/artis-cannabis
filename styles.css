@@ -82,17 +82,22 @@
 .template-artis-cannabis #brands {
   --tenant-color-surface: 0 0% 10%;
   --tenant-color-background: 0 0% 10%;
-  --tenant-color-heading: 0 0% 0%;
+  --tenant-color-heading: 0 0% 100%;
   --tenant-color-text: 0 0% 100%;
   position: relative;
 }
 
-/* The heading "WE WORK WITH" sits on white bg ABOVE the dark cards */
 .template-artis-cannabis #brands h2 {
-  color: hsl(0 0% 0%);
+  color: hsl(0 0% 100%);
   font-size: clamp(2rem, 4vw, 4.5rem);
   font-weight: 400;
   letter-spacing: 0.045em;
+}
+
+.template-artis-cannabis #brands h3,
+.template-artis-cannabis #brands p,
+.template-artis-cannabis #brands span {
+  color: hsl(0 0% 100%);
 }
 
 .template-artis-cannabis #brands .rounded-2xl {
@@ -126,23 +131,7 @@
   --tenant-color-background: 30 20% 30%;
   --tenant-color-heading: 0 0% 100%;
   --tenant-color-text: 0 0% 100%;
-  background-image: url('assets/brand-fourth.png');
-  background-size: cover;
-  background-position: center;
   position: relative;
-}
-
-.template-artis-cannabis #partners::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.35);
-  z-index: 0;
-}
-
-.template-artis-cannabis #partners > * {
-  position: relative;
-  z-index: 1;
 }
 
 .template-artis-cannabis #partners h2 {
@@ -151,6 +140,12 @@
   font-weight: 400;
   letter-spacing: 0.08em;
   text-align: center;
+}
+
+.template-artis-cannabis #partners h3,
+.template-artis-cannabis #partners p,
+.template-artis-cannabis #partners span {
+  color: hsl(0 0% 100%);
 }
 
 /* ===== Footer — LIGHT bg, dark text (matches Figma) ===== */

@@ -3,6 +3,7 @@
   "slug": "artis-cannabis",
   "logoPath": null,
   "heroImagePath": "assets/hero.png",
+  "heroBackgroundPath": "assets/hero-bg.png",
   "heroVideoPath": null,
   "primaryColor": "0 0% 0%",
   "fontFamily": "'Raleway', 'Lato', sans-serif",
@@ -110,10 +111,10 @@
   "navigation": {
     "links": [
       { "label": "About Us", "href": "/about" },
-      { "label": "Our Brands", "href": "/products" },
-      { "label": "Work", "href": "/the-wire" },
-      { "label": "Our Partners", "href": "/about#partners" },
-      { "label": "Contact", "href": "/contact" }
+      { "label": "Research", "href": "/conditions" },
+      { "label": "The Wire", "href": "/the-wire" },
+      { "label": "Eligibility", "href": "/consultation" },
+      { "label": "Strains", "href": "/products" }
     ],
     "cta": { "label": "Shop Now", "href": "/products" },
     "cta2": { "label": "Patient Login", "href": "/login" },
