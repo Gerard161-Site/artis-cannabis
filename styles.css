@@ -48,19 +48,42 @@
   font-size: 0.75rem;
 }
 
-/* ===== Hero — Light bg, large black title, cannabis bud image ===== */
+/* ===== Hero — Full-bleed image, centered dark title, no overlay ===== */
 
 .template-artis-cannabis #hero {
-  --tenant-color-heading: 0 0% 0%;
+  --tenant-color-heading: 0 0% 20%;
   --tenant-color-text: 0 0% 20%;
   background-color: hsl(30 30% 95%);
 }
 
+/* Dark text on light hero — override white text */
 .template-artis-cannabis #hero h1 {
-  font-size: clamp(2.5rem, 8vw, 9rem);
-  letter-spacing: 0.045em;
+  font-size: clamp(2.5rem, 8vw, 7rem) !important;
+  letter-spacing: 0.08em;
   line-height: 1.1;
-  color: hsl(0 0% 0%);
+  color: hsl(0 0% 20%) !important;
+  white-space: nowrap;
+}
+
+/* Hide subtitle — Figma has no subtitle */
+.template-artis-cannabis #hero h1 + p {
+  display: none !important;
+}
+
+/* Hide CTA buttons */
+.template-artis-cannabis #hero .flex.flex-col.sm\:flex-row {
+  display: none !important;
+}
+
+/* Hide ambient glow blobs */
+.template-artis-cannabis #hero .blur-\[120px\],
+.template-artis-cannabis #hero .blur-\[100px\] {
+  display: none !important;
+}
+
+/* Hide scroll indicator */
+.template-artis-cannabis #hero .absolute.bottom-8 {
+  display: none !important;
 }
 
 /* ===== Who We Are — White bg, dark text, text LEFT image RIGHT ===== */

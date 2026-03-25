@@ -6,14 +6,9 @@
       "type": "HeroFullScreen",
       "id": "hero",
       "config": {
-        "textAlign": "left",
+        "textAlign": "center",
         "heroType": "image",
-        "ctaText": "Explore Products",
-        "secondaryCtaText": "Our Brands",
-        "secondaryCtaHref": "/products",
-        "heroHeight": "85vh",
-        "overlayStyle": "none",
-        "animation": "fade-up"
+        "heroHeight": "full"
       }
     },
     {

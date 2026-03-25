@@ -103,8 +103,12 @@
   ],
   "pageContent": {
     "homeHeroTitle": "ARTIS CANNABIS",
-    "homeHeroSubtitle": "",
+    "homeHeroSubtitle": " ",
     "homeHeroDescription": "",
+    "home": {
+      "heroOverlayStyle": "none",
+      "heroOverlayOpacity": 0
+    },
     "aboutMission": "We are the industry leader of superior quality cannabis products. Our innovation, consistency and commitment to the highest standards have allowed us to continually succeed in a rapidly evolving marketplace.",
     "educationHotspots": []
   },
