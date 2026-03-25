@@ -28,8 +28,7 @@
           { "value": "2", "label": "HC Approved Facilities" },
           { "value": "100+", "label": "Product Lines" },
           { "value": "3", "label": "Premium Brands" }
-        ],
-        "animation": "fade-up"
+        ]
       }
     },
     {
@@ -38,6 +37,8 @@
       "config": {
         "heading": "WE WORK WITH",
         "subtitle": "",
+        "columns": 4,
+        "imageStyle": "cover",
         "cards": [
           {
             "icon": "Leaf",
@@ -67,8 +68,7 @@
             "imageUrl": "assets/brand-fourth.png",
             "span": "normal"
           }
-        ],
-        "animation": "fade-up"
+        ]
       }
     },
     {
@@ -78,8 +78,7 @@
         "heading": "WHAT WE DO",
         "content": "We are a vertically integrated Licensed Producer with two Health Canada approved facilities. Working under these licenses we formulate, extract, package, and deliver one of Canada's most diverse and pure medical/recreational cannabis product assortments.\n\nOur medical products are based on patented pharmaceutical drug delivery technology backed by independent third party data as well as product specific clinical and non-clinical studies to prove their utility for medical use having recently secured a partnership with Merida Capital, a prominent US private equity fund.",
         "imageUrl": "assets/leaf-what-we-do.png",
-        "contentPosition": "right",
-        "animation": "fade-up"
+        "contentPosition": "right"
       }
     },
     {
@@ -88,6 +87,8 @@
       "config": {
         "heading": "OUR PARTNERS",
         "subtitle": "",
+        "avatarShape": "rounded",
+        "avatarSize": "xl",
         "members": [
           {
             "name": "ERIK FERNANDEZ",
@@ -104,8 +105,7 @@
             "role": "",
             "avatar": "assets/partner-alicia.png"
           }
-        ],
-        "animation": "fade-up"
+        ]
       }
     }
   ],
