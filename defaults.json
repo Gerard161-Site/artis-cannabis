@@ -1,0 +1,174 @@
+{
+  "template": "artis-cannabis",
+  "slug": "artis-cannabis",
+  "logoPath": null,
+  "heroImagePath": "assets/hero-bg.png",
+  "heroVideoPath": null,
+  "primaryColor": "90 85% 50%",
+  "fontFamily": "'Raleway', 'Lato', sans-serif",
+  "designSystem": {
+    "colors": {
+      "primary-scale": {
+        "50": "90 85% 95%",
+        "100": "90 85% 90%",
+        "200": "90 85% 81%",
+        "300": "90 85% 70%",
+        "400": "90 85% 60%",
+        "500": "90 85% 50%",
+        "600": "90 85% 40%",
+        "700": "90 85% 30%",
+        "800": "90 85% 20%",
+        "900": "90 85% 12%"
+      },
+      "primary": "90 85% 50%",
+      "secondary": "19 100% 26%",
+      "accent": "90 85% 81%",
+      "background": "0 33% 2%",
+      "surface": "0 0% 8%",
+      "text": "0 0% 85%",
+      "heading": "0 0% 100%",
+      "border": "0 0% 15%",
+      "success": "142 76% 36%",
+      "warning": "38 92% 50%",
+      "error": "0 72% 51%",
+      "info": "199 89% 48%"
+    },
+    "typography": {
+      "headingFamily": "'Syncopate', sans-serif",
+      "bodyFamily": "'Raleway', 'Lato', sans-serif",
+      "headingWeight": "700",
+      "bodyWeight": "400",
+      "headingLetterSpacing": "0.045em",
+      "bodyLetterSpacing": "0.08em",
+      "headingTextTransform": "uppercase",
+      "scale": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.25rem",
+        "2xl": "1.5rem",
+        "3xl": "1.875rem",
+        "4xl": "2.25rem",
+        "5xl": "3rem",
+        "6xl": "3.75rem"
+      }
+    },
+    "shadows": {
+      "sm": "0 1px 2px rgba(0, 0, 0, 0.3)",
+      "md": "0 4px 6px rgba(0, 0, 0, 0.4)",
+      "lg": "0 10px 15px rgba(0, 0, 0, 0.5)",
+      "xl": "0 20px 25px rgba(0, 0, 0, 0.6)",
+      "glass": "inset -15px 15px 15px rgba(255, 255, 255, 0.1), inset 15px -15px 15px rgba(149, 149, 149, 0.1)",
+      "glow": "0 0 60px rgba(214, 248, 167, 0.15)"
+    },
+    "gradients": {
+      "primary": "linear-gradient(135deg, hsl(90 85% 50%), hsl(90 85% 30%))",
+      "dark": "linear-gradient(180deg, hsl(0 33% 2%), hsl(0 0% 6%))",
+      "glass": "linear-gradient(135deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02))",
+      "glow": "radial-gradient(ellipse at center, rgba(214, 248, 167, 0.15), transparent 70%)"
+    },
+    "spacing": {
+      "section": "5rem",
+      "container": "1.5rem",
+      "card": "2rem"
+    },
+    "borderRadius": {
+      "sm": "0.375rem",
+      "md": "0.75rem",
+      "lg": "1rem",
+      "xl": "1.5rem",
+      "2xl": "2rem",
+      "full": "9999px"
+    }
+  },
+  "valueProps": [
+    {
+      "title": "Licensed Producer",
+      "description": "Two Health Canada approved facilities for formulation, extraction, packaging, and delivery.",
+      "icon": "Shield"
+    },
+    {
+      "title": "Patented Technology",
+      "description": "Pharmaceutical drug delivery technology backed by independent third party clinical data.",
+      "icon": "FlaskConical"
+    },
+    {
+      "title": "Diverse Assortment",
+      "description": "One of Canada's most diverse and pure medical/recreational cannabis product lines.",
+      "icon": "Layers"
+    },
+    {
+      "title": "Vertically Integrated",
+      "description": "From seed to sale — we formulate, extract, package, and deliver.",
+      "icon": "GitBranch"
+    }
+  ],
+  "pageContent": {
+    "homeHeroTitle": "ARTIS CANNABIS",
+    "homeHeroSubtitle": "Premium Cannabis Products",
+    "homeHeroDescription": "We are a vertically integrated Licensed Producer delivering one of Canada's most diverse and pure cannabis product assortments.",
+    "aboutMission": "We are the industry leader of superior quality cannabis products. Our innovation, consistency and commitment to the highest standards have allowed us to continually succeed in a rapidly evolving marketplace.",
+    "educationHotspots": [
+      {
+        "id": "spot1",
+        "targetSectionId": "hero",
+        "x": 50,
+        "y": 60,
+        "title": "Premium Quality",
+        "description": "Patented pharmaceutical drug delivery technology backed by clinical studies."
+      }
+    ]
+  },
+  "navigation": {
+    "links": [
+      { "label": "About Us", "href": "/about" },
+      { "label": "Our Brands", "href": "/products" },
+      { "label": "Our Partners", "href": "/about#partners" },
+      { "label": "The Wire", "href": "/the-wire" },
+      { "label": "Contact", "href": "/contact" }
+    ],
+    "cta": { "label": "Shop Now", "href": "/products" },
+    "cta2": { "label": "Patient Login", "href": "/login" },
+    "showCart": true
+  },
+  "footer": {
+    "tagline": "Artis Cannabis — Superior quality cannabis products.",
+    "disclaimer": "Products are intended for use by adults 19+ (or applicable provincial age) only. Please consume responsibly.",
+    "sections": [
+      {
+        "title": "Contact Us",
+        "links": [
+          { "label": "1-88-920-5998", "href": "tel:18889205998" },
+          { "label": "87, Bloor Street West", "href": "/contact" },
+          { "label": "Toronto, ON M5S 1M2", "href": "/contact" }
+        ]
+      },
+      {
+        "title": "Socials",
+        "links": [
+          { "label": "Facebook", "href": "#" },
+          { "label": "Instagram", "href": "#" },
+          { "label": "LinkedIn", "href": "#" }
+        ]
+      },
+      {
+        "title": "Information",
+        "links": [
+          { "label": "Privacy Policy", "href": "/privacy" },
+          { "label": "Disclaimer", "href": "/regulatory" },
+          { "label": "Terms & Conditions", "href": "/terms" }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          { "label": "About Us", "href": "/about" },
+          { "label": "Our Products", "href": "/products" },
+          { "label": "The Wire", "href": "/the-wire" },
+          { "label": "FAQ", "href": "/faq" }
+        ]
+      }
+    ]
+  }
+}

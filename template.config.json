@@ -1,0 +1,11 @@
+{
+  "id": "artis-cannabis",
+  "slug": "artis-cannabis",
+  "name": "Artis Cannabis",
+  "description": "Dark glassmorphic cannabis storefront with lime green glow accents, Syncopate typography, and a luxury brand showcase — inspired by the Artis Cannabis Figma design.",
+  "category": "luxury",
+  "tags": ["dark", "glassmorphism", "premium", "cannabis", "luxury", "glow", "branded"],
+  "features": ["Glassmorphic card effects with backdrop blur", "Lime green radial glow animations", "Syncopate uppercase heading typography"],
+  "author": "BudStacks Platform",
+  "version": "1.0.0"
+}

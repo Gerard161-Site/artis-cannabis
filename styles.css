@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Raleway:wght@400;500;600;700&family=Lato:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== Artis Cannabis — Dark Glassmorphic Template ===== */
+
+:root {
+  --tenant-color-primary: 90 85% 50%;
+  --tenant-color-secondary: 19 100% 26%;
+  --tenant-color-accent: 90 85% 81%;
+  --tenant-color-background: 0 33% 2%;
+  --tenant-color-surface: 0 0% 8%;
+  --tenant-color-text: 0 0% 85%;
+  --tenant-color-heading: 0 0% 100%;
+  --tenant-color-border: 0 0% 15%;
+  --tenant-font-base: 'Raleway', 'Lato', sans-serif;
+  --tenant-font-heading: 'Syncopate', sans-serif;
+  --tenant-blur-sm: 8px;
+  --tenant-blur-md: 16px;
+  --tenant-blur-lg: 24px;
+  --tenant-blur-xl: 100px;
+}
+
+/* ===== Global Dark Theme ===== */
+
+.template-artis-cannabis {
+  background-color: hsl(0 33% 2%);
+  color: hsl(0 0% 85%);
+  letter-spacing: 0.08em;
+}
+
+.template-artis-cannabis h1,
+.template-artis-cannabis h2,
+.template-artis-cannabis h3,
+.template-artis-cannabis h4 {
+  font-family: 'Syncopate', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.045em;
+  color: hsl(0 0% 100%);
+}
+
+/* ===== Navigation — Minimal on dark bg ===== */
+
+.template-artis-cannabis nav {
+  --tenant-color-heading: 0 0% 100%;
+  --tenant-color-text: 0 0% 85%;
+  font-family: 'Syncopate', sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+}
+
+/* ===== Hero — Glassmorphic with Lime Glow ===== */
+
+.template-artis-cannabis #hero {
+  --tenant-color-heading: 0 0% 100%;
+  --tenant-color-text: 0 0% 90%;
+  position: relative;
+  overflow: hidden;
+}
+
+.template-artis-cannabis #hero::before {
+  content: '';
+  position: absolute;
+  top: 20%;
+  left: -10%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(ellipse, rgba(214, 248, 167, 0.12), transparent 70%);
+  filter: blur(var(--tenant-blur-xl));
+  pointer-events: none;
+  z-index: 0;
+  animation: glowPulse 8s ease-in-out infinite;
+}
+
+.template-artis-cannabis #hero h1 {
+  font-size: clamp(2.5rem, 8vw, 9rem);
+  letter-spacing: 0.045em;
+  line-height: 1.1;
+}
+
+/* ===== Who We Are — Dark surface with green glow ===== */
+
+.template-artis-cannabis #who-we-are {
+  --tenant-color-surface: 0 0% 5%;
+  --tenant-color-heading: 0 0% 100%;
+  --tenant-color-text: 0 0% 80%;
+  position: relative;
+  overflow: hidden;
+}
+
+.template-artis-cannabis #who-we-are::after {
+  content: '';
+  position: absolute;
+  bottom: -100px;
+  right: -100px;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(ellipse, rgba(214, 248, 167, 0.08), transparent 70%);
+  filter: blur(var(--tenant-blur-xl));
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ===== Brands — BentoGrid on dark bg ===== */
+
+.template-artis-cannabis #brands {
+  --tenant-color-surface: 0 0% 6%;
+  --tenant-color-heading: 90 85% 81%;
+  --tenant-color-text: 0 0% 85%;
+}
+
+.template-artis-cannabis #brands h2 {
+  color: hsl(90 85% 81%);
+  font-size: clamp(2rem, 5vw, 5rem);
+}
+
+.template-artis-cannabis #brands .rounded-2xl {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02));
+  backdrop-filter: blur(var(--tenant-blur-md));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow:
+    inset -15px 15px 15px rgba(255, 255, 255, 0.05),
+    inset 15px -15px 15px rgba(149, 149, 149, 0.05);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.template-artis-cannabis #brands .rounded-2xl:hover {
+  border-color: rgba(214, 248, 167, 0.2);
+  box-shadow:
+    0 0 30px rgba(214, 248, 167, 0.06),
+    inset -15px 15px 15px rgba(255, 255, 255, 0.05),
+    inset 15px -15px 15px rgba(149, 149, 149, 0.05);
+}
+
+/* ===== What We Do — ImageShowcase with glass overlay ===== */
+
+.template-artis-cannabis #what-we-do {
+  --tenant-color-heading: 0 0% 100%;
+  --tenant-color-text: 0 0% 90%;
+}
+
+.template-artis-cannabis #what-we-do h2 {
+  font-size: clamp(1.5rem, 3vw, 3rem);
+}
+
+/* ===== Partners — TeamGrid with glassmorphic cards ===== */
+
+.template-artis-cannabis #partners {
+  --tenant-color-surface: 0 0% 5%;
+  --tenant-color-heading: 0 0% 100%;
+  --tenant-color-text: 0 0% 85%;
+  position: relative;
+}
+
+.template-artis-cannabis #partners h2 {
+  color: hsl(90 85% 81%);
+  font-size: clamp(2rem, 5vw, 5rem);
+  text-align: center;
+}
+
+.template-artis-cannabis #partners .rounded-2xl,
+.template-artis-cannabis #partners [class*="card"] {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02));
+  backdrop-filter: blur(var(--tenant-blur-lg));
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow:
+    inset -15px 15px 15px rgba(255, 255, 255, 0.08),
+    inset 15px -15px 15px rgba(194, 194, 194, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.template-artis-cannabis #partners .rounded-2xl:hover,
+.template-artis-cannabis #partners [class*="card"]:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 12px 40px rgba(214, 248, 167, 0.08),
+    inset -15px 15px 15px rgba(255, 255, 255, 0.08),
+    inset 15px -15px 15px rgba(194, 194, 194, 0.08);
+}
+
+/* ===== Newsletter — Dark with accent highlight ===== */
+
+.template-artis-cannabis #subscribe {
+  --tenant-color-surface: 0 0% 4%;
+  --tenant-color-heading: 0 0% 100%;
+  --tenant-color-text: 0 0% 80%;
+}
+
+.template-artis-cannabis #subscribe input {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: -0.005em;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: hsl(0 0% 100%);
+}
+
+.template-artis-cannabis #subscribe input::placeholder {
+  color: hsl(0 0% 50%);
+}
+
+.template-artis-cannabis #subscribe button {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* ===== Footer — Dark treatment ===== */
+
+.template-artis-cannabis footer {
+  --tenant-color-surface: 0 0% 3%;
+  --tenant-color-background: 0 0% 3%;
+  --tenant-color-heading: 0 0% 100%;
+  --tenant-color-text: 0 0% 70%;
+  --tenant-color-border: 0 0% 12%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.template-artis-cannabis footer h3,
+.template-artis-cannabis footer h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+}
+
+/* ===== Glassmorphism Utility ===== */
+
+.template-artis-cannabis .glass-panel {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02));
+  backdrop-filter: blur(var(--tenant-blur-lg));
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow:
+    inset -15px 15px 15px rgba(255, 255, 255, 0.08),
+    inset 15px -15px 15px rgba(149, 149, 149, 0.08);
+}
+
+/* ===== CTA Buttons ===== */
+
+.template-artis-cannabis .btn-glass {
+  backdrop-filter: blur(var(--tenant-blur-md));
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.04));
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: hsl(0 0% 100%);
+  font-family: 'Syncopate', sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.875rem 2rem;
+  transition: all 0.3s ease;
+}
+
+.template-artis-cannabis .btn-glass:hover {
+  background: linear-gradient(135deg, rgba(214, 248, 167, 0.15), rgba(214, 248, 167, 0.05));
+  border-color: rgba(214, 248, 167, 0.3);
+  box-shadow: 0 0 20px rgba(214, 248, 167, 0.1);
+}
+
+/* ===== Animations ===== */
+
+@keyframes glowPulse {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.15);
+  }
+}
+
+@keyframes glassShimmer {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+/* ===== Hover Animations — Subtle Luxury ===== */
+
+.template-artis-cannabis .hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.template-artis-cannabis .hover-lift:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* ===== Scrollbar — Dark themed ===== */
+
+.template-artis-cannabis ::-webkit-scrollbar {
+  width: 8px;
+}
+
+.template-artis-cannabis ::-webkit-scrollbar-track {
+  background: hsl(0 0% 4%);
+}
+
+.template-artis-cannabis ::-webkit-scrollbar-thumb {
+  background: hsl(0 0% 15%);
+  border-radius: 4px;
+}
+
+.template-artis-cannabis ::-webkit-scrollbar-thumb:hover {
+  background: hsl(0 0% 25%);
+}
+
+/* ===== Responsive — Mobile adjustments ===== */
+
+@media (max-width: 768px) {
+  .template-artis-cannabis #hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .template-artis-cannabis #brands h2,
+  .template-artis-cannabis #partners h2 {
+    font-size: 1.75rem;
+  }
+
+  .template-artis-cannabis #hero::before {
+    width: 300px;
+    height: 300px;
+  }
+}

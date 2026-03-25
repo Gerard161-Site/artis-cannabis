@@ -1,0 +1,119 @@
+{
+  "version": "1.0.0",
+  "navigation": "NavMinimal",
+  "sections": [
+    {
+      "type": "HeroShaderGlass",
+      "id": "hero",
+      "config": {
+        "title": "ARTIS CANNABIS",
+        "ctaText": "Explore Products",
+        "secondaryCtaText": "Our Brands",
+        "secondaryCtaHref": "/products",
+        "shaderSpeed": 0.3,
+        "glowColor": "accent",
+        "animation": "fade-up"
+      }
+    },
+    {
+      "type": "About",
+      "id": "who-we-are",
+      "config": {
+        "heading": "WHO WE ARE",
+        "content": "We are the industry leader of superior quality cannabis products. Our innovation, consistency and commitment to the highest standards have allowed us to continually succeed in a rapidly evolving marketplace. Our forward-thinking consumer-focused brands are setting the stage for future industry trends.",
+        "imageUrl": "assets/about-leaf.png",
+        "stats": [
+          { "value": "2", "label": "HC Approved Facilities" },
+          { "value": "100+", "label": "Product Lines" },
+          { "value": "3", "label": "Premium Brands" }
+        ],
+        "animation": "fade-up"
+      }
+    },
+    {
+      "type": "BentoGrid",
+      "id": "brands",
+      "config": {
+        "heading": "WE WORK WITH",
+        "subtitle": "Our portfolio of premium cannabis brands",
+        "cards": [
+          {
+            "title": "GREEN TEC",
+            "description": "Advanced cannabis cultivation technology",
+            "imageUrl": "assets/brand-greentec.png",
+            "span": "wide"
+          },
+          {
+            "title": "TREE HUGGER",
+            "description": "Sustainably grown, naturally crafted",
+            "imageUrl": "assets/brand-treehugger.png",
+            "span": "tall"
+          },
+          {
+            "title": "TENZO",
+            "description": "Premium craft cannabis for connoisseurs",
+            "imageUrl": "assets/brand-tenzo.png",
+            "span": "wide"
+          }
+        ],
+        "animation": "fade-up"
+      }
+    },
+    {
+      "type": "ImageShowcase",
+      "id": "what-we-do",
+      "config": {
+        "heading": "WHAT WE DO",
+        "content": "We are a vertically integrated Licensed Producer with two Health Canada approved facilities. Working under these licenses we formulate, extract, package, and deliver one of Canada's most diverse and pure medical/recreational cannabis product assortments.\n\nOur medical products are based on patented pharmaceutical drug delivery technology backed by independent third party data as well as product specific clinical and non-clinical studies to prove their utility for medical use.",
+        "imageUrl": "assets/leaf-illustration.png",
+        "overlayStyle": "glass",
+        "ctaText": "Read More",
+        "ctaHref": "/about",
+        "animation": "fade-up"
+      }
+    },
+    {
+      "type": "TeamGrid",
+      "id": "partners",
+      "config": {
+        "heading": "OUR PARTNERS",
+        "subtitle": "The people driving our vision forward",
+        "members": [
+          {
+            "name": "Erik Fernandez",
+            "role": "Strategic Partner",
+            "avatar": "assets/partner-erik.png"
+          },
+          {
+            "name": "Paul Jacob",
+            "role": "Strategic Partner",
+            "avatar": "assets/partner-paul.png"
+          },
+          {
+            "name": "Alicia D'Souza",
+            "role": "Strategic Partner",
+            "avatar": "assets/partner-alicia.png"
+          }
+        ],
+        "animation": "fade-up"
+      }
+    },
+    {
+      "type": "Newsletter",
+      "id": "subscribe",
+      "config": {
+        "heading": "Stay in the Loop",
+        "subtitle": "Sign up with your email address to receive latest updates and notifications",
+        "placeholder": "Email address",
+        "buttonText": "SIGN UP",
+        "animation": "fade-up"
+      }
+    }
+  ],
+  "footer": "FooterFull",
+  "settings": {
+    "wrapperClass": "template-artis-cannabis",
+    "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Raleway:wght@400;500;600;700&family=Lato:wght@400;700&display=swap",
+    "sectionPadding": "2rem/3rem/4rem"
+  }
+}
